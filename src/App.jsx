@@ -6,8 +6,10 @@ function App() {
    const [number ,setnumber]     =    useState(false);
    const [charcter,setcharacter] =    useState(false);
    const [password,setpassword]  =    useState(" ")
-    const passwordref = useRef("")
+   const passwordref = useRef("")
 
+  //  optimize the copy button 
+  const [color , setcolor] = useState("blue")
    const passwordGenrater = useCallback( () =>{
       let pass = " ";
       let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
@@ -19,7 +21,7 @@ function App() {
       }
     setpassword(pass);
       
-   } , [length,number,charcter, setpassword]);
+   } , [length,number,charcter,setpassword]);
     
    const copyPasswordToClipboard = useCallback (() =>{
         passwordref.current?.select()
@@ -29,10 +31,15 @@ function App() {
     passwordGenrater()
    } , [length,number,charcter, passwordGenrater])
 
+   const handlwclick = ()=>{
+    setcolor("#D76F6F")
+    copyPasswordToClipboard()
+   }
 
+   
   return (
     <>
-    <h1>fkjfkj</h1>
+    <h1 className='text-white text-center my-3'> <b>A React Based project</b></h1>
    
     <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-5 my-20 bg-gray-800 text-orange-500 ">
      
@@ -47,8 +54,9 @@ function App() {
           ref={passwordref}
       />
       <button
-      onClick={copyPasswordToClipboard}
-      className='outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0'
+      onClick={handlwclick}
+      
+      className='outline-none  text-white px-3 py-0.5 shrink-0' style={{backgroundColor:color}}
       >copy</button>
       
   </div>
