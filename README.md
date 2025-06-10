@@ -2,9 +2,7 @@
 
 A sleek and customizable password generator built using **React**. Adjust the password length, include numbers and special characters, and copy securely to your clipboard with one click!
 
-## 🚀 Live Demo
 
-[🔗 Live Site](https://your-deployed-url.com)
 
 ## 🛠️ Tech Stack
 
