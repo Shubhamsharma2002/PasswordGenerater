@@ -2,10 +2,6 @@
 
 A sleek and customizable password generator built using **React**. Adjust the password length, include numbers and special characters, and copy securely to your clipboard with one click!
 
-## 🚀 Live Demo
-
-[🔗 Live Site](https://your-deployed-url.com)
-
 ## 🛠️ Tech Stack
 
 - ⚛️ React (with Hooks like `useState`, `useEffect`, `useCallback`, `useRef`)
@@ -28,6 +24,7 @@ A sleek and customizable password generator built using **React**. Adjust the pa
 - 🔄 Password auto-generates on changes
 
 ## 📂 Folder Structure
+
 ```
 src/
 │
@@ -42,4 +39,21 @@ src/
 ├── index.css # TailwindCSS
 ├── vite.config.js # Vite configuration
 ├── tailwind.config.js # Tailwind configuration
+
 ```
+
+---
+
+## 🚀 Live Demo
+
+🔗 [https://passwordgenratorbyshubh.netlify.app/](https://passwordgenratorbyshubh.netlify.app/)
+
+---
+
+
+
+## 👤 Developer: Shubham Sharma
+
+Feel free to connect with me:
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shubhamsharma2002)  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubhamsharma2026/)   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shubhamjii2002@gmail.com)
