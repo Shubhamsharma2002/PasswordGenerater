@@ -10,8 +10,8 @@ const Navbar = () => {
     <nav className="bg-blue-900 p-3">
       <div className="flex justify-around items-center">
         <div className="flex items-center space-x-2 text-white font-bold text-xl">
-          <NavLink to="/"> <img src="/logo.ico" alt="Web logo" className="w-8 h-8 rounded " />
-          </NavLink><span>Skynow</span>
+          <NavLink to="/"> <img src="/logo.ico" alt="Web logo"  />
+          </NavLink><span>PassGen</span>
         
         </div>
 
