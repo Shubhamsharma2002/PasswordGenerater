@@ -9,9 +9,7 @@ A sleek and customizable password generator built using **React**. Adjust the pa
 - 🚀 Vite (for blazing fast development build)
 - 📋 Clipboard API (for copy functionality)
 
-## 📸 Preview
 
-![Password Generator UI](./preview.png) <!-- optional if you add a screenshot -->
 
 ## 🔧 Features
 
@@ -31,14 +29,14 @@ src/
 ├── components/              # Reusable UI components
 │   ├── Navbar.jsx
 │   ├── Footer.jsx
+│   ├── PasswordGen.jsx      # Password generator component
 │
-├── pages/                   # Pages for routing
-│   ├── About.jsx            # About project page
-├── App.jsx # Main layout + routing
-├── main.jsx # Entry point
-├── index.css # TailwindCSS
-├── vite.config.js # Vite configuration
-├── tailwind.config.js # Tailwind configuration
+├── App.jsx                  # Main layout + routing
+├── About.jsx                # About project page
+├── main.jsx                 # Entry point
+├── index.css                # TailwindCSS
+├── vite.config.js           # Vite configuration
+├── tailwind.config.js       # Tailwind configuration
 
 ```
 
