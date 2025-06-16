@@ -9,6 +9,7 @@ const About = () => {
         <img
           src="/Profilepic.jpeg"
           alt="Developer"
+          
           className="w-44 h-44 rounded-2xl border-4 border-blue-300 object-cover"
         />
       </div>
