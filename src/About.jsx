@@ -9,6 +9,7 @@ const About = () => {
         <img
           src="/Profilepic.jpeg"
           alt="Developer"
+
           className="w-44 h-44 rounded-2xl border-4 border-blue-300 object-cover"
         />
       </div>
@@ -19,6 +20,7 @@ const About = () => {
         I’m a passionate Full Stack MERN Developer with hands-on experience in building scalable web applications using MongoDB, Express.js, React, and Node.js. 
         My expertise spans both frontend and backend development, along with deployment and infrastructure management using AWS services such as EC2, S3, and RDS. 
         I thrive on turning complex problems into elegant solutions and building high-quality, user-friendly products.
+        
       </p>
 
       {/* Contact Section */}
