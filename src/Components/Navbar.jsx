@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-3 text-white font-bold text-xl select-none">
   <NavLink to="/" className="flex items-center gap-3 hover:opacity-90 transition-opacity duration-300">
     <img
-      src="/FullLogo_NoBuffer.png"
+      src="/Navlogo.png"
       alt="Web logo"
       className="w-9 h-12 object-cover rounded-md shadow-md"
     />
